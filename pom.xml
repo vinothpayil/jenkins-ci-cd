@@ -11,6 +11,7 @@
 	<groupId>com.vinothtechie</groupId>
 	<artifactId>JenkinsCiCdApplication</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
+	<packaging>war</packaging>
 	<name>JenkinsCiCdApplication</name>
 	<description>Demo project for Spring Boot Jenkins CI CD</description>
 	<url/>
@@ -49,6 +50,8 @@
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
 		</plugins>
+		<!-- change the final name of the war file -->
+		<finalName>JenkinsCiCdApplication</finalName>
 	</build>
 
 </project>
