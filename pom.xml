@@ -53,5 +53,4 @@
 		<!-- change the final name of the war file -->
 		<finalName>JenkinsCiCdApplication</finalName>
 	</build>
-
 </project>
