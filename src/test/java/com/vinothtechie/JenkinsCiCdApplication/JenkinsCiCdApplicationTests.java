@@ -20,6 +20,6 @@ class JenkinsCiCdApplicationTest {
         String name = "Vino Durai";
         mockMvc.perform(get("/greetings/{name}", name))
                 .andExpect(status().isOk())
-                .andExpect(content().string("Hello " + name +" Congratulations you have successfully completed Jenkins CI/CD Demo!"));
+                .andExpect(content().string("Hello " + name.split(" ")[0] +" Congratulations you have successfully completed Jenkins CI/CD Demo!"));
     }
 }
